@@ -10,7 +10,7 @@ class WelcomePage extends StatelessWidget {
 
   Future<void> _signInAnonymously() async {
     try {
-      await auth.signInAninomously();
+      await auth.signInAnonymously();
     } catch (e) {
       print(e.toString());
     }
